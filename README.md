@@ -20,17 +20,17 @@ python manage.py runserver
 ## API Endpoints
 
 ### User Management
-- **Register**: `POST /users/register/`
-- **Login**: `POST /users/login/`
-- **Logout**: `POST /users/logout/`
-- **Profile**: `GET, PUT, PATCH /users/profile/`
+- **Register**: `POST - https://inventory-app-backend-1avz.onrender.com/api/users/register/`
+- **Login**: `POST - https://inventory-app-backend-1avz.onrender.com/api/users/login/`
+- **Logout**: `POST - https://inventory-app-backend-1avz.onrender.com/api/users/logout/`
+- **Profile**: `GET, PUT, PATCH - https://inventory-app-backend-1avz.onrender.com/api/users/profile/`
 
 ### Product Management
-- **List/Create**: `GET, POST /products/products/`
-- **Retrieve/Update/Delete**: `GET, PUT, PATCH, DELETE /products/products/{id}/`
+- **List/Create**: `GET, POST - https://inventory-app-backend-1avz.onrender.com/api/products/products/`
+- **Retrieve/Update/Delete**: `GET, PUT, PATCH, DELETE - https://inventory-app-backend-1avz.onrender.com/api/products/products/{id}/`
 
 ## Admin Access
-- **URL**: `/admin/`
+- **URL**: `https://inventory-app-backend-1avz.onrender.com/admin/`
 - **Default Superuser**:
   - Username: `admin`
   - Password: `12345`
