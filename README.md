@@ -5,9 +5,9 @@ This is the backend for an inventory management application built with Django RE
 ## Getting Started
 
 ### Prerequisites
-- Python 3.x
-- Django
-- Django REST Framework
+- [Python 3.x](https://www.python.org/)
+- [Django](https://www.djangoproject.com/)
+- [Django REST Framework](https://www.django-rest-framework.org/)
 
 ### Installation
 1. Clone the repository:
